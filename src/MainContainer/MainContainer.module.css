@@ -1,0 +1,19 @@
+.MainSection{
+    display: flex;
+    flex-direction: row;
+   
+}
+@media screen and (max-width: 479px) {
+    .MainSection{
+        display: flex;
+        flex-direction: column;
+       
+    }
+}
+@media screen and (max-width: 570px) { 
+    .MainSection{
+    display: flex;
+    flex-direction: column;
+   
+}
+}

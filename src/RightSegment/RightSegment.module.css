@@ -1,0 +1,33 @@
+.Illustration{
+    width: 100%;
+}
+.ImgageContainer{
+    width: 668px;
+    margin-left: 65px;
+}
+@media screen and (max-width: 479px) {
+    .RightMegaWrapper{
+        width: 120%;
+        height: 160%;
+        margin-right: 24px;
+    }
+    .ImgageContainer{
+        width: 700px;
+        height: 100vh;
+        margin-left: 0px;
+
+    }
+}
+@media screen and (max-width: 570px) {
+    .RightMegaWrapper{
+        width: 120%;
+        height: 160%;
+        margin-right: 24px;
+    }
+    .ImgageContainer{
+        width: 700px;
+        height: 100vh;
+        margin-left: 0px;
+
+    }
+}

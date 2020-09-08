@@ -1,0 +1,243 @@
+.LeftMegaWrapper{
+    width: 630px;
+    height: 82vh;
+    padding-top: 18px;
+    box-sizing: border-box;
+}
+.TopContentWrapper{
+    width: 500px;
+    height: 300px;
+  
+    margin-left: 120px;
+    box-sizing: border-box;
+}
+.PurpleWrapper{
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color:#5243C0 ;
+}
+.Innernavigation{
+    display: flex;
+}
+.Heading{
+    margin-top: 0;
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-left:55px ;
+    line-height: 1.8ch;
+    margin-bottom: 20px;
+}
+.PurpleDot{
+    color: #5243C0;
+}
+.Info{
+    margin-top: 0;
+    color: #726D6D;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.Innernavigation{
+    display: flex;
+    margin-left: 15px;
+}
+.UpWrapper{
+    padding-left: 35px;
+}
+.DownWrapper{
+    padding-left: 25px;
+}
+.AccountTwo{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left:18px ;
+}
+
+
+
+.BottomContentWrapper{
+    width: 500px;
+    height: 300px;
+ 
+    margin-left: 120px;
+}
+.ColorCodePink{
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #FED7DA;
+}
+.ColorCodeYellow{
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #FD6534;
+}
+.ColorCodeBlue{
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #9FD297;
+}
+.ColorCodeOrange{
+    width: 30px;
+    height: 15px;
+    border-radius: 5px;
+    background-color: #FFE4A1;
+}
+.Function{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #F8F8F8;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.FunctionBlue{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+   box-shadow: 2px 2px 4px #ccc;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 15px;
+}
+.FuncName{
+    text-align: left;
+    font-weight: 500;
+   
+}
+.GrayTick{
+    width: 25px;
+}
+.BlueTick{
+    width: 25px;
+
+}
+.FuncName{
+    width: 132px;
+}
+
+
+
+/* media query */
+@media screen and (max-width: 479px) {
+    .LeftMegaWrapper{
+       width: 100%;
+       margin-top: 8px;
+       padding: 0;
+        box-sizing: border-box;
+    }
+    .TopContentWrapper{
+        width: 100%;
+    }
+    .Heading{
+        margin-top: 0;
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 0;
+    margin-left:0px ;
+    margin-right: 8px;
+    line-height: 1.8ch;
+    margin-bottom: 2px;
+}
+.TopContentWrapper{
+   
+  
+    margin-left: 86px;
+    
+}
+.Info{
+    margin-top: 25px;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 2px;
+    margin-bottom: 8px;
+}
+.PurpleWrapper{
+    width: 134px;
+    height: 60px;
+    
+}
+.BottomContentWrapper{
+    position: relative;
+    top: 1180px;
+    z-index: 5;
+    margin-left:96px;
+    width: 100%;
+}
+.FunctionWrapper{
+    width: 500px;
+    
+}
+
+
+    }
+
+    @media screen and (max-width: 570px) {
+
+        .LeftMegaWrapper{
+            width: 100%;
+            margin-top: 8px;
+            padding: 0;
+             box-sizing: border-box;
+         }
+         .TopContentWrapper{
+             width: 100%;
+         }
+         .Heading{
+             margin-top: 0;
+         font-size: 100px;
+         font-weight: 900;
+         letter-spacing: 0;
+         margin-left:0px ;
+         margin-right: 8px;
+         line-height: 1.8ch;
+         margin-bottom: 2px;
+     }
+     .TopContentWrapper{
+        
+       
+         margin-left: 86px;
+         
+     }
+     .Info{
+         margin-top: 25px;
+         font-size: 24px;
+         padding-left: 5px;
+         padding-right: 2px;
+         margin-bottom: 8px;
+     }
+     .PurpleWrapper{
+         width: 134px;
+         height: 60px;
+         
+     }
+     .BottomContentWrapper{
+         position: relative;
+         top: 1180px;
+         z-index: 5;
+         margin-left:96px;
+         width: 100%;
+     }
+     .FunctionWrapper{
+         width: 500px;
+         
+     }
+     
+     
+         }
+     
